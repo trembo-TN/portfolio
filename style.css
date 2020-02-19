@@ -1,0 +1,28 @@
+.me {
+    height: auto;
+    max-width: 250px;
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.jumbotron {
+    clear: both;
+    margin-top: 20px;
+}
+
+/* trying to make the image take up the entire column when screen width = 768 or less
+    definitely missing something.  played with a few things and haven't quite figured it out
+    going to leave as is and hope to have so insight during office hours
+*/
+
+@media only screen and (max-width: 768) {
+    .me {
+        max-height: auto;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
