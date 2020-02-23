@@ -13,6 +13,15 @@
     margin-top: 20px;
 }
 
+.footer {
+    background-color: #333;
+    position: sticky;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
 /* trying to make the image take up the entire column when screen width = 768 or less
     definitely missing something.  played with a few things and haven't quite figured it out
     going to leave as is and hope to have so insight during office hours
