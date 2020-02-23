@@ -13,8 +13,5 @@ App should include:
 - responsive images
 - responsive layout
 
-<<<<<<< HEAD
-[Live Site](https://trembo-tn.github.io/portfolio/)
-=======
-[Live Site](https://trembo-tn.github.io/portfolio/)
->>>>>>> 165348ff137f95138e946c207b4a8ca846c562f4
+[GitHub Page] (https://github.com/trembo-TN/portfolio)
+[Portfolio Site] (https://trembo-tn.github.io/portfolio/)
