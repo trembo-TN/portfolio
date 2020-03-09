@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <title>JLT</title>
 </head>
 
-<body>
+<body class="site">
 
 <!-- Navbar with links About is homepage in essence-->
 
@@ -26,30 +27,34 @@
 </nav>
 
 <!-- Container for entire form -->
+<main class="siteContent">
+  <div class="container">
+    <form style="margin-top: 20px;">
+      <div class="row">
+        <div class="col-6">
+          <input type="text" class="form-control" placeholder="First Name">
+        </div>
+        <div class="col-6">
+          <input type="text" class="form-control" placeholder="Last Name">
+        </div>
+      </div>
+      <div class="row" style="margin-top: 20px;">
+        <div class="col-12">
+          <input type="text" class="form-control" id="email" placeholder="example@gmail.com">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="comments"></label>
+        <textarea class="form-control" id="comments" rows="5" placeholder="I'm interested in hearing your thoughts! Leave them here..."></textarea>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+      </div>
+    </form>
+  </div>
+</main>
 
-<div class="container">
-  <form style="margin-top: 20px;">
-    <div class="row">
-      <div class="col-6">
-        <input type="text" class="form-control" placeholder="First Name">
-      </div>
-      <div class="col-6">
-        <input type="text" class="form-control" placeholder="Last Name">
-      </div>
-    </div>
-    <div class="row" style="margin-top: 20px;">
-      <div class="col-12">
-        <input type="text" class="form-control" id="email" placeholder="example@gmail.com">
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="comments"></label>
-      <textarea class="form-control" id="comments" rows="5" placeholder="I'm interested in hearing your thoughts! Leave them here..."></textarea>
-    </div>
-    <div class="col-auto">
-      <button type="submit" class="btn btn-primary mb-2">Submit</button>
-    </div>
-  </form>
+<div class="footer text-center py-3">Lee Trembley
 </div>
 
 <!-- javascript and jquery links -->
@@ -59,4 +64,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

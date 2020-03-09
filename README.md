@@ -1,7 +1,6 @@
 # portfolio
-| Objectives |
 
-Create a responsive website using bootstrap CSS framework
+Create a responsive website using bootstrap CSS framework.
 
 Link together:
 - index.html
